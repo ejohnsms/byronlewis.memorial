@@ -1,0 +1,29 @@
+{
+  "name": "byronlewis.memorial",
+  "version": "0.0.1",
+  "description": "A memorial website for Byron Lewis",
+  "main": "src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejohnsms/byronlewis.memorial.git"
+  },
+  "keywords": [
+    "memorial"
+  ],
+  "author": "Ed Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejohnsms/byronlewis.memorial/issues"
+  },
+  "homepage": "https://github.com/ejohnsms/byronlewis.memorial#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}

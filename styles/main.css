@@ -1,0 +1,68 @@
+.main-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.image-column {
+	width: 50%;
+	text-align: center;
+}
+
+.text-column {
+	padding: .5em;
+	width: 45%;
+}
+
+.gospel-hymn {
+	list-style: none;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+.navigation {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	margin: 0;
+}
+
+.navigation a {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	color: #ddd;
+}
+
+.navigation a:hover {
+	background: #ccc;
+}
+
+.navigation li {
+	list-style: none;
+	display: inline;
+}
+
+.navigation li:last-of-type a {
+	border-bottom: none;
+}
+
+
+@media all and (max-width: 800px) {
+	.navigation {
+		justify-content: space-around;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.navigation {
+		flex-direction: column;
+	}
+}
